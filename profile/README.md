@@ -1,31 +1,32 @@
 # RedPandaFlow
 
-A collaborative kanban application.
+Une application de kanban collaboratif.
 
-Inspired by Trello, RedPandaFlow lets teams organise work in workspaces,
-boards, columns, and cards, with real-time updates across collaborators.
+Inspirée de Trello, RedPandaFlow permet aux équipes d'organiser leur travail en
+espaces de travail, tableaux, colonnes et cartes, avec une synchronisation en
+temps réel entre collaborateurs.
 
-## Repositories
+## Dépôts
 
-- [redpandaflow-backend](https://github.com/RedPandaFlow/redpandaflow-backend) — ASP.NET Core 8 Web API, Clean Architecture, EF Core + PostgreSQL, SignalR
+- [redpandaflow-backend](https://github.com/RedPandaFlow/redpandaflow-backend) — API web ASP.NET Core (.NET 10), Clean Architecture, EF Core + PostgreSQL, SignalR
 - [redpandaflow-frontend](https://github.com/RedPandaFlow/redpandaflow-frontend) — React 19, Vite, Tailwind CSS 4, shadcn/ui
-- [redpandaflow-infra](https://github.com/RedPandaFlow/redpandaflow-infra) — docker-compose stack to run the whole project locally
-- [documentation](https://github.com/RedPandaFlow/documentation) — architecture and design notes
+- [redpandaflow-infra](https://github.com/RedPandaFlow/redpandaflow-infra) — stack docker-compose pour lancer tout le projet en local
+- [documentation](https://github.com/RedPandaFlow/documentation) — notes d'architecture et de conception
 
-## Features
+## Fonctionnalités
 
-- Workspaces, boards, columns, cards with drag and drop
-- Real-time sync across collaborators (presence, board mutations, notifications)
-- Comments, labels, checklists, assignees on cards
-- Per-card activity timeline
-- Notifications with unread badge for card events
-- Search across workspaces, boards, and cards
-- User profiles with avatar upload, account deletion
-- Workspaces and boards roles (Admin, Member, Viewer)
+- Espaces de travail, tableaux, colonnes et cartes avec glisser-déposer
+- Synchronisation temps réel entre collaborateurs (présence, mutations de tableau, notifications)
+- Commentaires, étiquettes, checklists et assignations sur les cartes
+- Historique d'activité par carte
+- Notifications avec badge de non-lus pour les événements de carte
+- Recherche transverse (espaces, tableaux, cartes)
+- Profils utilisateurs avec avatar, suppression de compte
+- Rôles sur les espaces et tableaux (Admin, Membre, Lecteur)
 
 ## Stack
 
-- ASP.NET Core 8
+- ASP.NET Core (.NET 10)
 - Entity Framework Core
 - PostgreSQL
 - React 19
